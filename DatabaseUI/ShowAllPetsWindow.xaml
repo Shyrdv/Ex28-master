@@ -1,0 +1,39 @@
+﻿<Window x:Class="DatabaseUI.ShowAllPetsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:DatabaseUI"
+        mc:Ignorable="d"
+        Title="ShowAllPetsWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="petnameBox" HorizontalAlignment="Left" Height="270" Margin="60,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="petnameBox_Copy" HorizontalAlignment="Left" Height="270" Margin="160,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="petnameBox_Copy1" HorizontalAlignment="Left" Height="270" Margin="260,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="petnameBox_Copy2" HorizontalAlignment="Left" Height="270" Margin="360,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="petnameBox_Copy3" HorizontalAlignment="Left" Height="270" Margin="460,68,0,0" TextWrapping="NoWrap" Text="" VerticalAlignment="Top" Width="69"/>
+        <TextBox x:Name="petnameBox_Copy4" HorizontalAlignment="Left" Height="270" Margin="560,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <TextBox x:Name="petnameBox_Copy5" HorizontalAlignment="Left" Height="270" Margin="660,68,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="label" Content="Pet Id" HorizontalAlignment="Left" Margin="75,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy" Content="Pet Name" HorizontalAlignment="Left" Margin="167,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy1" Content="Pet Type" HorizontalAlignment="Left" Margin="266,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy2" Content="Pet Breed" HorizontalAlignment="Left" Margin="368,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy3" Content="Pet DOB" HorizontalAlignment="Left" Margin="467,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy4" Content="Pet Weight" HorizontalAlignment="Left" Margin="564,37,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label_Copy5" Content="Owner ID" HorizontalAlignment="Left" Margin="668,37,0,0" VerticalAlignment="Top"/>
+        <Button x:Name="returnToMainbutton" FontSize="18" HorizontalAlignment="Left" Margin="22,350,0,0" VerticalAlignment="Top" Width="93" Height="53" Click="ReturnToMain_Click">
+            <Image Source="https://cdn.iconscout.com/icon/free/png-256/return-arrow-457870.png" RenderTransformOrigin="0.5,0.5" Height="44" Width="71">
+                <Image.RenderTransform>
+                    <TransformGroup>
+                        <ScaleTransform/>
+                        <SkewTransform/>
+                        <RotateTransform Angle="-0.262"/>
+                        <TranslateTransform/>
+                    </TransformGroup>
+                </Image.RenderTransform>
+
+            </Image>
+        </Button>
+
+    </Grid>
+</Window>
